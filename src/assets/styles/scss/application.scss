@@ -1,0 +1,11 @@
+@import './settings/base';
+@import './settings/color';
+@import './modules/common';
+@import './pages/index';
+@import './components/progressbar';
+@import './components/header';
+@import './components/movies';
+@import './components/pagination';
+@import './components/tabs';
+@import '../../../../node_modules/antd/dist/antd.css';
+@import './components/movie-details';

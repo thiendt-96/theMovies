@@ -1,0 +1,23 @@
+.btn {
+  transition: all 0.4s ease;
+}
+
+.spinner {
+  width: 20rem;
+  margin: 10rem auto 0;
+}
+
+.rate {
+  &__list {
+    display: flex;
+    margin-bottom: 1rem;
+
+    &:hover {
+      color: $color-yellow;
+    }
+  }
+
+  &__item {
+    cursor: pointer;
+  }
+}
